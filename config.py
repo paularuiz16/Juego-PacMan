@@ -1,0 +1,12 @@
+# Tamaños
+TAM_CELDA = 40
+ANCHO = 10 * TAM_CELDA
+ALTO = 7 * TAM_CELDA
+
+# Colores
+NEGRO = (0, 0, 0)
+AZUL = (0, 0, 255)
+AMARILLO = (255, 255, 0)
+ROJO = (255, 0, 0)
+BLANCO = (255, 255, 255)
+ROSADO = (255, 105, 180)
