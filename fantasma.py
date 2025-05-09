@@ -1,6 +1,6 @@
 import pygame
 import random
-from config import *  # Asegúrate de que el color 'ROJO' esté definido en config.py
+from config import *  
 from laberinto import es_pared
 
 class fantasma:
@@ -19,6 +19,6 @@ class fantasma:
                 self.pos = (nuevo_x, nuevo_y)  # Actualiza la posición con la tupla
 
     def dibujar(self, ventana):
-        x, y = self.pos  # Desempaqueta la tupla 'pos'
+        x, y = self.pos 
         pygame.draw.rect(ventana, self.color, 
                          (x * TAM_CELDA, y * TAM_CELDA, TAM_CELDA, TAM_CELDA))

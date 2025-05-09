@@ -20,7 +20,7 @@ class jugador:
 
         # Verifica colisión con pared
         if not es_pared(nuevo_x, nuevo_y):
-            self.pos = (nuevo_x, nuevo_y)  # Actualiza la tupla pos
+            self.pos = (nuevo_x, nuevo_y)  
 
     def dibujar(self, ventana):
         # Usa self.pos en lugar de self.x y self.y
